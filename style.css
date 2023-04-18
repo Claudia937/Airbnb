@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.newyork{
+    background-image: url(newyork.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position:relative
+}
+
+.layover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(50, 195, 108, 0.2);
+}
+
+.border{
+    height: 100%;
+    width: 100%;
+    border: 50px solid rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.layover:hover .border{
+    display: block;
+}
+
+.city-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.vienna{
+    background-image: url(vienna.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position:relative
+}
+
+.Maldive {
+    background-image: url(Maldive.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position:relative
+}
+
